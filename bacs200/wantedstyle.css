@@ -1,7 +1,35 @@
+body {
+    background-color: rgb(54, 54, 54);
+    color: white;
+}
 header {
     border: 3px solid #F6B018;
     background-color: #0E3D65;
     font-family: sans-serif;
     height: 120px;
     padding: 0;
+}
+h1 {
+    color: darkred;
+    text-align: center;
+}
+h2 {
+    color: rgb(236, 154, 0);
+    text-align: center;
+}
+main {
+    text-align: center;
+}
+aside {
+    float: right;
+    border: 4px darkred;
+    background-color: floralwhite;
+    font-size: 30px;
+}
+li {
+    color: black;
+    font-size: 20px;
+}
+footer {
+    text-align: center;
 }
