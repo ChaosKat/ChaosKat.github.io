@@ -17,9 +17,14 @@ h2 {
     color: rgb(236, 154, 0);
     text-align: center;
 }
+main {
+    text-align: center;
+}
 aside {
     float: right;
     border: 20px rgb(155, 1, 1);
+    border-style: solid;
+    background-color: floralwhite;
     font-size: 25px;
 }
 li {
