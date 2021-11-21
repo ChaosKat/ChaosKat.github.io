@@ -22,9 +22,8 @@ main {
 }
 aside {
     float: right;
-    border: 4px darkred;
-    background-color: floralwhite;
-    font-size: 30px;
+    border: 20px rgb(155, 1, 1);
+    font-size: 25px;
 }
 li {
     color: black;
