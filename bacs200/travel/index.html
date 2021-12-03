@@ -10,16 +10,57 @@
 </head>
 
 <body>
-    <div class="bg-warning text-primary text-center">
+    <div class="bg-warning text-center">
         <h1>Destination Incorperated</h1>
-        <p>(Put epic logo here)</p>
+        <a href="Destination.png"><img src="Destination.png" alt="Epic Logo"></a>
         <h3>Currently offering vacation packages to Shrimp Island</h3>
     </div>
-    <p>(Image Carousel here)</p>
-    <p>(Four images- first is of a resturant with the sign edited to say "Joe's seafood" advertising the seafood cuisine of Shrimp Island)</p>
-    <p>(Second image - Picture of a meausem display, advertising the ability to learn about the history and culture of Shrimp Island)</p>
-    <p>(Third image - Some guy smiling, advertise guided tours)</p>
-    <p>(Fourth image - Picture of a beach, advertising the famous Shrimp Beach where you can learn how real shrimp are caught)</p>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Restaurant.jpg" class="d-block w-100" alt="The Resturant">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Wonderful Seafood Resturants</h5>
+                <p>Stocked everyday with fish and shrimp straight from the pacific ocean</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Museum.jpg" class="d-block w-100" alt="The Museum">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Experience Cultural History Straight From the Source</h5>
+                <p>Shrimp Island is full of locally owned museums so you can learn more about the island's rich history</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Smile man.jpeg" class="d-block w-100" alt="Man Smiling">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Locally led Island Tours</h5>
+                <p>Purchase either the tour or deluxe package and get a guided tour by a local resident</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Beach.jpg" class="d-block w-100" alt="Shrimp Beach">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Visit the World Renowned Shrimp Beach</h5>
+                <p>Filled with gorgeous rock formations, purchase the deluxe package for a free pass for all four days of your vacation</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     <div class="bg-primary text-light text-center">
         <h1>Packages</h1>
     </div>
@@ -32,7 +73,7 @@
         <h1>Fun Activities!</h1>
         <h3>Learn the Art of Fishing</h3>
         <p>Shrimp Island has a long history of fishers. Learn from masters in the field on how large scale fishing is conducted, and get the opprotunity to try it yourself!</p>
-        <h3>Eat Fresh Seafood</h3>
+        <h3>Eat Delcious Seafood</h3>
         <p>
             The resturants on Shrimp Island get their seafood directly from the islands ocean fresh everyday. Don't miss the opprotunity to try some of the freshest seafood
             around!
