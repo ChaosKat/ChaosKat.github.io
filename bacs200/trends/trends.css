@@ -1,6 +1,7 @@
 main {
     margin-left: 20%;
     margin-right: 20%;
+    text-align: center;
     border: 5px lightgray;
     border-style: solid;
     border-radius: 25px;
